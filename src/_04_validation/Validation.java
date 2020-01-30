@@ -9,6 +9,8 @@ import javax.swing.JOptionPane;
 
 public class Validation {
 	public static void main(String[] args) {
+		for (int i = 0; i < 10; i++) {
+			
 		
 		Random randomMaker = new Random();
 		
@@ -17,9 +19,24 @@ public class Validation {
 		System.out.println(randomNumber);
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
-
+		if(randomNumber==0) {
+			JOptionPane.showMessageDialog(null,"You look nice.");
+		}
+		if(randomNumber==1) {
+			JOptionPane.showMessageDialog(null,"You look good.");
+		}
+		if(randomNumber==2) {
+			JOptionPane.showMessageDialog(null,"You look cool.");
+		}
+		if(randomNumber==3) {
+			JOptionPane.showMessageDialog(null,"You look pretty.");
+		}
+		if(randomNumber==4) {
+			JOptionPane.showMessageDialog(null,"You look like not trash.");
+		}
+	}
 		// 2. Repeat all the code above 10 times
 		
 		// 3. Find someone to test out your program. They will like it :)
-	}
-}
+	}}
+
