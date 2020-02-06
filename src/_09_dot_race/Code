@@ -9,14 +9,16 @@ void draw() {
     fill(#CEF2FF);
     //4. If the mouse is pressed change the X co-ordinate so that the dot moves to the right
      if(mousePressed){
-      int coco = 50+10;
+     coco = coco + 20;
     }
     //5. Make your dot move faster
     //  (you have to figure out what part of your code to change)
 
     //2. Draw an ellipse of height and width 10. Make sure to use your variable for the X position.
     ellipse(coco,10,10,10);
-    //6. Use the playSound() method to play a ding when your dot crosses the finish line. 
+    //6. Use the playSound() method to play a ding when your dot crosses the finish line.
+    if(coco==800){
+      
 }
 
 import ddf.minim.*;
